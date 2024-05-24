@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ABF: Utility Synstructs</name>
+    <author>Killathon</author>
+    <supportedVersions>
+		<li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Killathon.ArtificialBeings.SynstructsCore</packageId>
+            <displayName>ABF: Synstructs Core</displayName>
+            <!-- <steamWorkshopUrl></steamWorkshopUrl> -->
+            <downloadUrl>https://github.com/RWDevathon/Synstructs-Core</downloadUrl>
+        </li>
+    </modDependencies>
+    <packageId>Killathon.ArtificialBeings.SynstructsCore.UtilitySynstructs</packageId>
+    <loadAfter>
+        <li>Killathon.ArtificialBeings.SynstructsCore</li><!-- Dependency -->
+    </loadAfter>
+    <description><![CDATA[Synstructs have long been integrated into human societies, including a strong disinclination for doing various kinds of tedious tasks. Sapient synstructs appreciate it no more than humans do, and so quickly set about creating specialized drones for it. Capable of menial labor, industrial machining, or managing high risk diplomatic affairs, utility synstructs let their sapient creators attend to more personally interesting affairs.
+
+Version <color=#FFD800>1.0.0</color>.
+    ]]></description>
+</ModMetaData>

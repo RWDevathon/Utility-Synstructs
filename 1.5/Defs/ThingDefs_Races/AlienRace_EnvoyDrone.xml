@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+		<defName>ABF_Thing_Synstruct_Envoy</defName>
+		<label>envoy drone</label>
+		<description>Mouthpieces of paranoid dictators, messengers of lords and organizations, diplomatic units between warring factions, envoys are the forward and expendable faces of those they serve. Without fear for self and no ability to be autonomous or to incite rebellion, these units form the cornerstone of any survival-oriented figurehead's public outreach programs. Fragile and unthreatening, these units rely on the vast apparatus of charismatic voices and personas encoded within them to cajole, convert, subvert, or simply relay messages to others. Unusual for a RimWorld given their cost relative to their value, envoys are rarely witnessed beyond the service of highly advanced drone hives or Ultratech wanderers.\n\nWhile nominally designed for social tasks alone, they are versatile enough to perform tasks that do not require brute strength.</description>
+		<alienRace>
+			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
+                <body>
+                    <path>Things/Pawns/Humanlikes/Envoy/body/Naked_None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Envoy/body/Naked_None</Male>
+                        <Female>Things/Pawns/Humanlikes/Envoy/body/Naked_None</Female>
+                    </genderGraphics>
+                </body>
+                <head>
+                    <path>Things/Pawns/Humanlikes/Envoy/head/None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Envoy/head/None</Male>
+                        <Female>Things/Pawns/Humanlikes/Envoy/head/None</Female>
+                    </genderGraphics>
+                </head>
+                <skinShader>Cutout</skinShader>
+                <apparel>
+                    <bodyTypeFallback>Male</bodyTypeFallback>
+                </apparel>
+            </graphicPaths>
+            <generalSettings>
+                <alienPartGenerator>
+					<headBodyPartDef>ABF_SynstructHead</headBodyPartDef>
+                    <colorChannels Inherit="False">
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li> <!--Crimson-->
+										<weight>4</weight>
+										<min>RGBA(180, 60, 60, 255)</min>
+										<max>RGBA(120, 40, 40, 255)</max>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>100</weight>
+										<min>RGBA(255, 255, 255, 255)</min>
+										<max>RGBA(255, 255, 255, 255)</max>
+									</li>
+								</options>
+							</second>
+						</li>
+					</colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
+		</alienRace>
+		<statBases>
+			<MarketValue>3200</MarketValue>
+			<MoveSpeed>4.10</MoveSpeed>
+			<ComfyTemperatureMin>5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>30</ComfyTemperatureMax>
+			<WorkSpeedGlobal>0.75</WorkSpeedGlobal>
+			<MentalBreakThreshold>0.01</MentalBreakThreshold>
+            <ABF_CoherenceRetention>1</ABF_CoherenceRetention>
+            <ABF_NutritionalIntakeEfficiency>0.25</ABF_NutritionalIntakeEfficiency>
+            <ABF_ChargingSpeed>1</ABF_ChargingSpeed>
+            <ABF_ComplexityLimit>40</ABF_ComplexityLimit>
+            <ABF_SkillLimit>6</ABF_SkillLimit>
+			<Mass>64</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>5</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>5</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>ABF_Body_Synstruct_Envoy</body>
+			<baseBodySize>0.75</baseBodySize>
+			<baseHealthScale>0.75</baseHealthScale>
+		</race>
+        <recipes>
+            <li>ABF_CoolantInjection</li>
+            <li>ABF_LubricantInjection</li>
+        </recipes>
+        <comps>
+            <li>
+                <compClass>ArtificialBeings.CompCoherenceNeed</compClass>
+            </li>
+        </comps>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <canBeSapient>false</canBeSapient>
+                <maxDirectives>4</maxDirectives>
+                <inherentWorkTypes>
+                    <li>Warden</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Childcare</li>
+                </inherentWorkTypes>
+                <forbiddenWorkTypes>
+                    <li>Firefighter</li>
+                    <li>BasicWorker</li>
+                    <li>Hunting</li>
+                    <li>Construction</li>
+                    <li>Growing</li>
+                    <li>Mining</li>
+                    <li>PlantCutting</li>
+                    <li>Smithing</li>
+                    <li>Tailoring</li>
+                    <li>Crafting</li>
+                    <li>Hauling</li>
+                    <li>Cleaning</li>
+                    <li>Research</li>
+                </forbiddenWorkTypes>
+                <inherentSkills>
+                    <li><key>Social</key><value>4</value></li>
+                </inherentSkills>
+                <droneSkillLevel>4</droneSkillLevel>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                    <li>Mood</li>
+                    <li>RoomSize</li>
+                    <li>Joy</li>
+                    <li>Beauty</li>
+                    <li>Comfort</li>
+                    <li>Outdoors</li>
+                    <li>Indoors</li>
+                </blacklistedNeeds>
+                <artificialNeeds>
+                    <li><key>ABF_Coolant</key><value>3</value></li>
+                    <li><key>ABF_Lubricant</key><value>1.5</value></li>
+                </artificialNeeds>
+                <medicineList>
+                    <li>ABF_RepairStimIntermediate</li>
+                    <li>ABF_RepairStimAdvanced</li>
+                </medicineList>
+                <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+            </li>
+            <li Class="ArtificialBeings.ABF_SynstructExtension">
+                <droneChildhoodBackstoryDef>ABF_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
+                <droneAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
+            </li>
+		</modExtensions>
+		<butcherProducts>
+            <Plasteel>40</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
+            <AIPersonaCore>1</AIPersonaCore>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>
