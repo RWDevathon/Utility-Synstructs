@@ -24,4 +24,4 @@ Reflective Metal in Corner by macrovector on Freepik
 ## Links
 [Discord] (https://discord.gg/udNCpbkABT)
 
-[GitHub] (https://github.com/RWDevathon/MH-Utility-Drones)
+[GitHub] (https://github.com/RWDevathon/Utility-Synstructs)
