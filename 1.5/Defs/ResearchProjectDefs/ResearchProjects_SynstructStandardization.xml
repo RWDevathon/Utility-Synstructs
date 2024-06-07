@@ -9,7 +9,7 @@
 		<baseCost>1600</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
-			<li>ABF_SynstructStandardization</li>
+			<li>ABF_ResearchProject_Synstruct_Infrastructure</li>
         </prerequisites>
 		<researchViewX>1</researchViewX>
 		<researchViewY>3</researchViewY>
