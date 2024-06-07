@@ -82,8 +82,7 @@
             <ABF_LubricantPack>1</ABF_LubricantPack>
             <Gold>3</Gold>
             <ComponentIndustrial>10</ComponentIndustrial>
-            <ComponentSpacer>10</ComponentSpacer>
-            <AIPersonaCore>1</AIPersonaCore>
+            <ComponentSpacer>20</ComponentSpacer>
         </costList>
         <comps>
             <li Class="ArtificialBeings.CompProperties_PawnSpawner">
