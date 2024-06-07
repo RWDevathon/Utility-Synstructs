@@ -3,7 +3,7 @@
 
 	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
 		<defName>ABF_Thing_Synstruct_Envoy</defName>
-		<label>envoy drone</label>
+		<label>synstruct envoy</label>
 		<description>Mouthpieces of paranoid dictators, messengers of lords and organizations, diplomatic units between warring factions, envoys are the forward and expendable faces of those they serve. Without fear for self and no ability to be autonomous or to incite rebellion, these units form the cornerstone of any survival-oriented figurehead's public outreach programs. Fragile and unthreatening, these units rely on the vast apparatus of charismatic voices and personas encoded within them to cajole, convert, subvert, or simply relay messages to others. Unusual for a RimWorld given their cost relative to their value, envoys are rarely witnessed beyond the service of highly advanced drone hives or Ultratech wanderers.\n\nWhile nominally designed for social tasks alone, they are versatile enough to perform tasks that do not require brute strength.</description>
 		<alienRace>
 			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->

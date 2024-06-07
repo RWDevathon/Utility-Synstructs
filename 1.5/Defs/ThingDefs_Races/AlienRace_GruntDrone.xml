@@ -3,7 +3,7 @@
 
 	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
 		<defName>ABF_Thing_Synstruct_Grunt</defName>
-		<label>grunt drone</label>
+		<label>synstruct grunt</label>
 		<description>Matching the simplicity of their purpose, the simplicity of the grunt drone's design is its greatest feature. Designed purely for work, they are durable, capable, and persistent. Lacking the fine motor controls of less hyper-specialized designs, though, they are incapable of most complex tasks.\n\nThe most advanced elements of its design are its batteries and generators, which allow it to maximize its workflow and minimize downtime.</description>
 		<alienRace>
 			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->

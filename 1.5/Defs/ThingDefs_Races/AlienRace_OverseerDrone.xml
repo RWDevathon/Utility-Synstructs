@@ -3,7 +3,7 @@
 
 	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
 		<defName>ABF_Thing_Synstruct_Overseer</defName>
-		<label>overseer drone</label>
+		<label>synstruct overseer</label>
 		<description>Overseer drones are intimidating beings, inhuman and alien. With a single limb reaching from their spindly torso affixed with needle-like appendages, a trio of visual sensors that emit uncomfortable light, and an affixing stare, overseers are the scrying and analytical extensions of their masters. Capable of carrying out research tasks and the vital task of reprogramming and mending broken machinery, overseers are critical components in the massive scale machinery of fully automated drone hives.\n\nWhile some believe them to have inscrutable sapience, they are still drones, and follow whatever programming they possess. Drones reprogramming drones is a nightmare for many, and overseer drones are often hunted for this very reason.\n\nTheir hyperspecialized design and sheer innate complexity leaves precious little room for much else.</description>
 		<alienRace>
 			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
