@@ -14,7 +14,7 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <researchPrerequisite>ABF_ResearchProject_Synstruct_SimpleDrones</researchPrerequisite>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_UtilityDrones</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>90</Steel>
@@ -44,7 +44,7 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <researchPrerequisite>ABF_ResearchProject_Synstruct_ComplexDrones</researchPrerequisite>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_UtilityDrones</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Plasteel>120</Plasteel>
@@ -74,7 +74,7 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <researchPrerequisite>ABF_ResearchProject_Synstruct_ComplexDrones</researchPrerequisite>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_UtilityDrones</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Plasteel>120</Plasteel>
