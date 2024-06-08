@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
-		<defName>ABF_PawnKind_Synstruct_Grunt_Newboot</defName>
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_NewbootBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Grunt_Newboot</defName>
 		<label>grunt colonist</label>
 		<race>ABF_Thing_Synstruct_Grunt</race>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
-		<defName>ABF_PawnKind_Synstruct_Overseer_Newboot</defName>
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_NewbootBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Overseer_Newboot</defName>
 		<label>overseer colonist</label>
 		<race>ABF_Thing_Synstruct_Overseer</race>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
-		<defName>ABF_PawnKind_Synstruct_Envoy_Newboot</defName>
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_NewbootBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Envoy_Newboot</defName>
 		<label>envoy colonist</label>
 		<race>ABF_Thing_Synstruct_Envoy</race>
 	</PawnKindDef>

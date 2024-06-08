@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
 		<defName>ABF_Thing_Synstruct_Overseer</defName>
 		<label>synstruct overseer</label>
 		<description>Overseer drones are intimidating beings, inhuman and alien. With a single limb reaching from their spindly torso affixed with needle-like appendages, a trio of visual sensors that emit uncomfortable light, and an affixing stare, overseers are the scrying and analytical extensions of their masters. Capable of carrying out research tasks and the vital task of reprogramming and mending broken machinery, overseers are critical components in the massive scale machinery of fully automated drone hives.\n\nWhile some believe them to have inscrutable sapience, they are still drones, and follow whatever programming they possess. Drones reprogramming drones is a nightmare for many, and overseer drones are often hunted for this very reason.\n\nTheir hyperspecialized design and sheer innate complexity leaves precious little room for much else.</description>
@@ -28,7 +28,7 @@
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
-					<headBodyPartDef>ABF_SynstructHead</headBodyPartDef>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
                     <colorChannels Inherit="False">
 						<li>
 							<name>skin</name>
@@ -63,11 +63,11 @@
 			<WorkSpeedGlobal>1</WorkSpeedGlobal>
 			<MentalBreakThreshold>0.01</MentalBreakThreshold>
             <ResearchSpeed>1.5</ResearchSpeed>
-            <ABF_CoherenceRetention>1</ABF_CoherenceRetention>
-            <ABF_NutritionalIntakeEfficiency>0.25</ABF_NutritionalIntakeEfficiency>
-            <ABF_ChargingSpeed>1</ABF_ChargingSpeed>
-            <ABF_ComplexityLimit>2</ABF_ComplexityLimit>
-            <ABF_SkillLimit>2</ABF_SkillLimit>
+            <ABF_Stat_Synstruct_CoherenceRetention>1</ABF_Stat_Synstruct_CoherenceRetention>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>0.25</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <ABF_Stat_Synstruct_ChargingSpeed>1</ABF_Stat_Synstruct_ChargingSpeed>
+            <ABF_Stat_Artificial_ComplexityLimit>2</ABF_Stat_Artificial_ComplexityLimit>
+            <ABF_Stat_Artificial_SkillLimit>2</ABF_Stat_Artificial_SkillLimit>
 			<Mass>64</Mass>
 		</statBases>
 		<tools>
@@ -106,8 +106,8 @@
             <baseHungerRate>1.2</baseHungerRate>
 		</race>
         <recipes>
-            <li>ABF_CoolantInjection</li>
-            <li>ABF_LubricantInjection</li>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
+            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
         </recipes>
         <comps>
             <li>
@@ -120,7 +120,7 @@
                 <maxDirectives>0</maxDirectives>
                 <inherentWorkTypes>
                     <li>Research</li>
-                    <li>ABF_Artificer</li>
+                    <li>ABF_WorkType_Artificial_Artificer</li>
                     <li>Smithing</li>
                     <li>Crafting</li>
                 </inherentWorkTypes>
@@ -140,7 +140,7 @@
                     <li>Cleaning</li>
                 </forbiddenWorkTypes>
                 <inherentDirectives>
-                    <li>ABF_DirectiveArtisan</li>
+                    <li>ABF_Directive_Synstruct_Artisan</li>
                 </inherentDirectives>
                 <inherentSkills>
                     <li><key>Intellectual</key><value>3</value></li>
@@ -161,22 +161,22 @@
                     <li>Indoors</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Coolant</key><value>3</value></li>
-                    <li><key>ABF_Lubricant</key><value>0.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>3</value></li>
+                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>0.5</value></li>
                 </artificialNeeds>
                 <medicineList>
-                    <li>ABF_RepairStimIntermediate</li>
-                    <li>ABF_RepairStimAdvanced</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
                 <hediffReplacements>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <droneChildhoodBackstoryDef>ABF_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
-                <droneAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
+                <droneChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
+                <droneAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
             </li>
 		</modExtensions>
 		<butcherProducts>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
 		<defName>ABF_Thing_Synstruct_Grunt</defName>
 		<label>synstruct grunt</label>
 		<description>Matching the simplicity of their purpose, the simplicity of the grunt drone's design is its greatest feature. Designed purely for work, they are durable, capable, and persistent. Lacking the fine motor controls of less hyper-specialized designs, though, they are incapable of most complex tasks.\n\nThe most advanced elements of its design are its batteries and generators, which allow it to maximize its workflow and minimize downtime.</description>
@@ -28,7 +28,7 @@
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
-					<headBodyPartDef>ABF_SynstructHead</headBodyPartDef>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
                     <colorChannels Inherit="False">
 						<li>
 							<name>skin</name>
@@ -65,11 +65,11 @@
 			<GlobalLearningFactor>0.1</GlobalLearningFactor>
 			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
-            <ABF_CoherenceRetention>2.5</ABF_CoherenceRetention>
-            <ABF_NutritionalIntakeEfficiency>1.1</ABF_NutritionalIntakeEfficiency>
-            <ABF_ChargingSpeed>2.5</ABF_ChargingSpeed>
-            <ABF_ComplexityLimit>20</ABF_ComplexityLimit>
-            <ABF_SkillLimit>8</ABF_SkillLimit>
+            <ABF_Stat_Synstruct_CoherenceRetention>2.5</ABF_Stat_Synstruct_CoherenceRetention>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.1</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <ABF_Stat_Synstruct_ChargingSpeed>2.5</ABF_Stat_Synstruct_ChargingSpeed>
+            <ABF_Stat_Artificial_ComplexityLimit>20</ABF_Stat_Artificial_ComplexityLimit>
+            <ABF_Stat_Artificial_SkillLimit>8</ABF_Stat_Artificial_SkillLimit>
 			<Mass>144</Mass>
 		</statBases>
 		<tools>
@@ -125,8 +125,8 @@
             <baseHungerRate>0.6</baseHungerRate>
 		</race>
         <recipes>
-            <li>ABF_CoolantInjection</li>
-            <li>ABF_LubricantInjection</li>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
+            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
         </recipes>
         <comps>
             <li>
@@ -144,7 +144,7 @@
                 </inherentWorkTypes>
                 <forbiddenWorkTypes>
                     <li>Doctor</li>
-                    <li>ABF_Artificer</li>
+                    <li>ABF_WorkType_Artificial_Artificer</li>
                     <li>Warden</li>
                     <li MayRequire="Ludeon.RimWorld.Biotech">Childcare</li>
                     <li>Cooking</li>
@@ -156,7 +156,7 @@
                     <li>Research</li>
                 </forbiddenWorkTypes>
                 <inherentDirectives>
-                    <li>ABF_DirectiveGrunt</li>
+                    <li>ABF_Directive_Synstruct_Grunt</li>
                 </inherentDirectives>
                 <droneSkillLevel>4</droneSkillLevel>
                 <blacklistedNeeds>
@@ -173,19 +173,19 @@
                     <li>Indoors</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Coolant</key><value>0.5</value></li>
-                    <li><key>ABF_Lubricant</key><value>2</value></li>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>0.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>2</value></li>
                 </artificialNeeds>
                 <medicineList>
-                    <li>ABF_RepairStimSimple</li>
-                    <li>ABF_RepairStimIntermediate</li>
-                    <li>ABF_RepairStimAdvanced</li>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <droneChildhoodBackstoryDef>ABF_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
-                <droneAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
+                <droneChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
+                <droneAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
             </li>
 		</modExtensions>
 		<butcherProducts>

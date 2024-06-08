@@ -3,7 +3,7 @@
 
     <!-- Grunts, Envoys, and Overseers use standard Synstruct recipes -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/RecipeDef[@Name="ABF_SurgerySynstructBase"]/recipeUsers</xpath>
+        <xpath>Defs/RecipeDef[@Name="ABF_Recipe_Synstruct_SurgeryBase"]/recipeUsers</xpath>
         <value>
             <li>ABF_Thing_Synstruct_Grunt</li>
             <li>ABF_Thing_Synstruct_Overseer</li>

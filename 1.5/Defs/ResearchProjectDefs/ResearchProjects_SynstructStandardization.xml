@@ -4,7 +4,7 @@
 	<ResearchProjectDef>
 		<defName>ABF_ResearchProject_Synstruct_UtilityDrones</defName>
 		<label>utility drones</label>
-		<tab>ABF_SynstructResearch</tab>
+		<tab>ABF_ResearchTab_Synstruct_Primary</tab>
 		<description>Assemble specialized drones to fill non-combat roles to free up other colonists.</description>
 		<baseCost>1600</baseCost>
 		<techLevel>Spacer</techLevel>

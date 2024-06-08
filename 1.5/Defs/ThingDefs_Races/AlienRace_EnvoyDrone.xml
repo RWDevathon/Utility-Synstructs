@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
 		<defName>ABF_Thing_Synstruct_Envoy</defName>
 		<label>synstruct envoy</label>
 		<description>Mouthpieces of paranoid dictators, messengers of lords and organizations, diplomatic units between warring factions, envoys are the forward and expendable faces of those they serve. Without fear for self and no ability to be autonomous or to incite rebellion, these units form the cornerstone of any survival-oriented figurehead's public outreach programs. Fragile and unthreatening, these units rely on the vast apparatus of charismatic voices and personas encoded within them to cajole, convert, subvert, or simply relay messages to others. Unusual for a RimWorld given their cost relative to their value, envoys are rarely witnessed beyond the service of highly advanced drone hives or Ultratech wanderers.\n\nWhile nominally designed for social tasks alone, they are versatile enough to perform tasks that do not require brute strength.</description>
@@ -28,7 +28,7 @@
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
-					<headBodyPartDef>ABF_SynstructHead</headBodyPartDef>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
                     <colorChannels Inherit="False">
 						<li>
 							<name>skin</name>
@@ -62,11 +62,11 @@
 			<ComfyTemperatureMax>30</ComfyTemperatureMax>
 			<WorkSpeedGlobal>0.75</WorkSpeedGlobal>
 			<MentalBreakThreshold>0.01</MentalBreakThreshold>
-            <ABF_CoherenceRetention>1</ABF_CoherenceRetention>
-            <ABF_NutritionalIntakeEfficiency>0.25</ABF_NutritionalIntakeEfficiency>
-            <ABF_ChargingSpeed>1</ABF_ChargingSpeed>
-            <ABF_ComplexityLimit>40</ABF_ComplexityLimit>
-            <ABF_SkillLimit>6</ABF_SkillLimit>
+            <ABF_Stat_Synstruct_CoherenceRetention>1</ABF_Stat_Synstruct_CoherenceRetention>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>0.25</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <ABF_Stat_Synstruct_ChargingSpeed>1</ABF_Stat_Synstruct_ChargingSpeed>
+            <ABF_Stat_Artificial_ComplexityLimit>40</ABF_Stat_Artificial_ComplexityLimit>
+            <ABF_Stat_Artificial_SkillLimit>6</ABF_Stat_Artificial_SkillLimit>
 			<Mass>64</Mass>
 		</statBases>
 		<tools>
@@ -122,8 +122,8 @@
 			<baseHealthScale>0.75</baseHealthScale>
 		</race>
         <recipes>
-            <li>ABF_CoolantInjection</li>
-            <li>ABF_LubricantInjection</li>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
+            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
         </recipes>
         <comps>
             <li>
@@ -171,18 +171,18 @@
                     <li>Indoors</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Coolant</key><value>3</value></li>
-                    <li><key>ABF_Lubricant</key><value>1.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>3</value></li>
+                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>1.5</value></li>
                 </artificialNeeds>
                 <medicineList>
-                    <li>ABF_RepairStimIntermediate</li>
-                    <li>ABF_RepairStimAdvanced</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <droneChildhoodBackstoryDef>ABF_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
-                <droneAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
+                <droneChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
+                <droneAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
             </li>
 		</modExtensions>
 		<butcherProducts>
