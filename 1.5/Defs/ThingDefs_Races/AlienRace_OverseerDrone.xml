@@ -29,6 +29,9 @@
             <generalSettings>
                 <alienPartGenerator>
 					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
+                    <bodyTypes Inherit="False">
+                        <li>Male</li>
+                    </bodyTypes>
                     <colorChannels Inherit="False">
 						<li>
 							<name>skin</name>
