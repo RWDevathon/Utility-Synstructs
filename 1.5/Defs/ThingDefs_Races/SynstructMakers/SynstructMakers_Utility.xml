@@ -27,7 +27,7 @@
         <comps>
             <li Class="ArtificialBeings.CompProperties_PawnSpawner">
                 <pawnKind>ABF_PawnKind_Synstruct_Player_Grunt_Newboot</pawnKind>
-                <hediffOnSpawn>ABF_Hediff_Synstruct_Disabled</hediffOnSpawn>
+                <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
             </li>
         </comps>
     </ThingDef>
@@ -58,7 +58,7 @@
         <comps>
             <li Class="ArtificialBeings.CompProperties_PawnSpawner">
                 <pawnKind>ABF_PawnKind_Synstruct_Player_Overseer_Newboot</pawnKind>
-                <hediffOnSpawn>ABF_Hediff_Synstruct_Disabled</hediffOnSpawn>
+                <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
             </li>
         </comps>
     </ThingDef>
@@ -89,7 +89,7 @@
         <comps>
             <li Class="ArtificialBeings.CompProperties_PawnSpawner">
                 <pawnKind>ABF_PawnKind_Synstruct_Player_Envoy_Newboot</pawnKind>
-                <hediffOnSpawn>ABF_Hediff_Synstruct_Disabled</hediffOnSpawn>
+                <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
             </li>
         </comps>
     </ThingDef>
