@@ -3,17 +3,22 @@
 </p>
 
 # Description
-TODO
+A mod using Artificial Beings Framework (ABF) and Synstructs Core (ABF:SC) to bring utility synstructs to RimWorld. Synstructs have long been integrated into human societies, inheriting a strong disinclination for doing various kinds of tedious tasks. Sapient synstructs appreciate it no more than humans do, and so quickly set about creating specialized drones for it. Capable of menial labor, industrial machining, or managing high risk diplomatic affairs, utility synstructs let their sapient creators attend to more personally interesting affairs.
+
 
 ## Features
-* ALSO Todo
+* Three races of humanlike-intelligence synstruct models for production:
+    * The Grunt, a simple and hardworking model. Grunts can be drones or reprogrammable drones, and are suited best for manual labor. With an exceedingly long battery life and comparatively low maintenance, grunts are prized possessions among both synstruct and human societies.
+    * The Envoy, a complex and sociable model. Envoys can be drones or reprogrammable drones, and are suited best for social tasks even while being versatile enough for many other roles. Inherently capable of social tasks, these drones are usually used as negotiators or wardens.
+    * The Overseer, an extremely complex and rigid model. Overseers can be drones or reprogrammable drones, and are best suited for research or industrial tasks. The sheer complexity of them leaves little room for versatility at all, and most societies find them highly unnerving.
+* Research and recipes to unlock and manufacture the models.
+
 
 ## Known Issues/Incompatibilities
 * Unknown
 
 ## Contributions
 * Thermo: Thumbnail/Preview
-* Ninjafrog77: Envoy, Grunt, Overseer pawn art assets
 
 Background by kotkoa on Freepik
 (https://www.freepik.com/free-vector/big-data-concept-background_21063019.htm#query=red%20circuit%20backround&position=0&from_view=search&track=robertav1_2_sidr%22%3EImage)
@@ -23,5 +28,3 @@ Reflective Metal in Corner by macrovector on Freepik
 
 ## Links
 [Discord] (https://discord.gg/udNCpbkABT)
-
-[GitHub] (https://github.com/RWDevathon/Utility-Synstructs)
