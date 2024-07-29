@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_Thing_Synstruct_Grunt.label>synstruct grunt</ABF_Thing_Synstruct_Grunt.label>
-  <ABF_Thing_Synstruct_Grunt.description>Matching the simplicity of their purpose, the simplicity of the grunt drone's design is its greatest feature. Designed purely for work, they are durable, capable, and persistent. Lacking the fine motor controls of less hyper-specialized designs, though, they are incapable of most complex tasks.\n\nThe most advanced elements of its design are its batteries and generators, which allow it to maximize its workflow and minimize downtime.</ABF_Thing_Synstruct_Grunt.description>
-  <ABF_Thing_Synstruct_Grunt.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</ABF_Thing_Synstruct_Grunt.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
-  <ABF_Thing_Synstruct_Grunt.tools.0.label>right fist</ABF_Thing_Synstruct_Grunt.tools.0.label>
-  <ABF_Thing_Synstruct_Grunt.tools.1.label>left fist</ABF_Thing_Synstruct_Grunt.tools.1.label>
-  <ABF_Thing_Synstruct_Grunt.tools.2.label>head</ABF_Thing_Synstruct_Grunt.tools.2.label>
+  <ABF_Thing_Synstruct_Grunt.label>синтоид труженик</ABF_Thing_Synstruct_Grunt.label>
+  <ABF_Thing_Synstruct_Grunt.description>Главная особенность соответствует его названию и простой конструкции. Подобные дроны созданы исключительно для работы, прочные, способные и стойкие. Не обладая тонкой моторикой, свойственной менее гипер-специализированным юнитам, они, тем не менее, не способны выполнять большинство сложных задач.\n\nСамыми продвинутыми элементами его конструкции являются аккумулятор и генераторы, которые позволяют максимально оптимизировать рабочий процесс и свести простои к минимуму.</ABF_Thing_Synstruct_Grunt.description>
+  <ABF_Thing_Synstruct_Grunt.tools.0.label>правый кулак</ABF_Thing_Synstruct_Grunt.tools.0.label>
+  <ABF_Thing_Synstruct_Grunt.tools.1.label>левый кулак</ABF_Thing_Synstruct_Grunt.tools.1.label>
+  <ABF_Thing_Synstruct_Grunt.tools.2.label>голова</ABF_Thing_Synstruct_Grunt.tools.2.label>
 
 
 </LanguageData>

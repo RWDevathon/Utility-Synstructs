@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_Thing_Synstruct_Envoy.label>synstruct envoy</ABF_Thing_Synstruct_Envoy.label>
-  <ABF_Thing_Synstruct_Envoy.description>Mouthpieces of paranoid dictators, messengers of lords and organizations, diplomatic units between warring factions, envoys are the forward and expendable faces of those they serve. Without fear for self and no ability to be autonomous or to incite rebellion, these units form the cornerstone of any survival-oriented figurehead's public outreach programs. Fragile and unthreatening, these units rely on the vast apparatus of charismatic voices and personas encoded within them to cajole, convert, subvert, or simply relay messages to others. Unusual for a RimWorld given their cost relative to their value, envoys are rarely witnessed beyond the service of highly advanced drone hives or Ultratech wanderers.\n\nWhile nominally designed for social tasks alone, they are versatile enough to perform tasks that do not require brute strength.</ABF_Thing_Synstruct_Envoy.description>
-  <ABF_Thing_Synstruct_Envoy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</ABF_Thing_Synstruct_Envoy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
-  <ABF_Thing_Synstruct_Envoy.tools.0.label>right fist</ABF_Thing_Synstruct_Envoy.tools.0.label>
-  <ABF_Thing_Synstruct_Envoy.tools.1.label>left fist</ABF_Thing_Synstruct_Envoy.tools.1.label>
-  <ABF_Thing_Synstruct_Envoy.tools.2.label>head</ABF_Thing_Synstruct_Envoy.tools.2.label>
+  <ABF_Thing_Synstruct_Envoy.label>синтоид посол</ABF_Thing_Synstruct_Envoy.label>
+  <ABF_Thing_Synstruct_Envoy.description>Глашатаи параноидальных диктаторов, посланники лордов и организаций, дипломаты между враждующими фракциями, дроны послы — передовые и расходные лица своих хозяев. Не боясь за себя, не умея быть самостоятельными и не подстрекая к восстанию, эти юниты составляют краеугольный камень любой, ориентированной на выживание, программы по работе с населением. Хрупкие и неопасные, юниты полагаются на обширный объем харизматических голосов и личностей, зашифрованных в них, чтобы убеждать, обращать, подрывать или просто передавать сообщения другим. Необычные для окраинных миров, учитывая их стоимость по сравнению с ценностью, посланники редко встречаются за пределами высокоразвитых ульев дронов или ультратехнологичных странников.\n\nХотя номинально они предназначены только для социальных задач, они достаточно универсальны, чтобы выполнять задачи, не требующие грубой силы.</ABF_Thing_Synstruct_Envoy.description>
+  <ABF_Thing_Synstruct_Envoy.tools.0.label>правый кулак</ABF_Thing_Synstruct_Envoy.tools.0.label>
+  <ABF_Thing_Synstruct_Envoy.tools.1.label>левый кулак</ABF_Thing_Synstruct_Envoy.tools.1.label>
+  <ABF_Thing_Synstruct_Envoy.tools.2.label>голова</ABF_Thing_Synstruct_Envoy.tools.2.label>
 
 
 </LanguageData>

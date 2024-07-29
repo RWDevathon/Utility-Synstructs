@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_Body_Synstruct_Grunt.label>grunt body</ABF_Body_Synstruct_Grunt.label>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.2.customLabel>left heatsink</ABF_Body_Synstruct_Grunt.corePart.parts.2.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.3.customLabel>right heatsink</ABF_Body_Synstruct_Grunt.corePart.parts.3.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.2.customLabel>left visual sensor</ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.2.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.3.customLabel>right visual sensor</ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.3.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.4.customLabel>left audial sensor</ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.4.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.5.customLabel>right audial sensor</ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.5.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.6.customLabel>left shoulder</ABF_Body_Synstruct_Grunt.corePart.parts.6.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.customLabel>left arm</ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.customLabel>left hand</ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.0.customLabel>left pinky</ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.0.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.1.customLabel>left index finger</ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.1.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.2.customLabel>left thumb</ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.2.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.7.customLabel>right shoulder</ABF_Body_Synstruct_Grunt.corePart.parts.7.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.customLabel>right arm</ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.customLabel>right hand</ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.0.customLabel>right pinky</ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.0.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.1.customLabel>right index finger</ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.1.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.2.customLabel>right thumb</ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.2.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.9.customLabel>left leg</ABF_Body_Synstruct_Grunt.corePart.parts.9.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.9.parts.0.customLabel>left foot</ABF_Body_Synstruct_Grunt.corePart.parts.9.parts.0.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.10.customLabel>right leg</ABF_Body_Synstruct_Grunt.corePart.parts.10.customLabel>
-  <ABF_Body_Synstruct_Grunt.corePart.parts.10.parts.0.customLabel>right foot</ABF_Body_Synstruct_Grunt.corePart.parts.10.parts.0.customLabel>
+  <ABF_Body_Synstruct_Grunt.label>труженик туловище</ABF_Body_Synstruct_Grunt.label>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.2.customLabel>левый радиатор</ABF_Body_Synstruct_Grunt.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.3.customLabel>правый радиатор</ABF_Body_Synstruct_Grunt.corePart.parts.3.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.2.customLabel>левый оптический датчик</ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.3.customLabel>правый оптический датчик</ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.4.customLabel>левый звуковой датчик</ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.5.customLabel>правый звуковой датчик</ABF_Body_Synstruct_Grunt.corePart.parts.5.parts.0.parts.5.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.6.customLabel>левое плечо</ABF_Body_Synstruct_Grunt.corePart.parts.6.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.customLabel>левая рука</ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.customLabel>левая кисть</ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.0.customLabel>левый мизинец</ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.1.customLabel>левый указательный палец</ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.2.customLabel>левый большой палец</ABF_Body_Synstruct_Grunt.corePart.parts.6.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.7.customLabel>правое плечо</ABF_Body_Synstruct_Grunt.corePart.parts.7.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.customLabel>правая рука</ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.customLabel>правая кисть</ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.0.customLabel>правый мизинец</ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.1.customLabel>правый указательный палец</ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.2.customLabel>правый большой палец</ABF_Body_Synstruct_Grunt.corePart.parts.7.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.9.customLabel>левая нога</ABF_Body_Synstruct_Grunt.corePart.parts.9.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.9.parts.0.customLabel>левая стопа</ABF_Body_Synstruct_Grunt.corePart.parts.9.parts.0.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.10.customLabel>правая нога</ABF_Body_Synstruct_Grunt.corePart.parts.10.customLabel>
+  <ABF_Body_Synstruct_Grunt.corePart.parts.10.parts.0.customLabel>правая стопа</ABF_Body_Synstruct_Grunt.corePart.parts.10.parts.0.customLabel>
 
 
 </LanguageData>
