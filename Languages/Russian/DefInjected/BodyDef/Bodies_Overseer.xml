@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Body_Synstruct_Overseer.label>overseer body</ABF_Body_Synstruct_Overseer.label>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.2.customLabel>left heatsink</ABF_Body_Synstruct_Overseer.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.3.customLabel>right heatsink</ABF_Body_Synstruct_Overseer.corePart.parts.3.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.2.customLabel>Primary visual sensor</ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.3.customLabel>Secondary visual sensor</ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.4.customLabel>Tertiary visual sensor</ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.5.customLabel>left audial sensor</ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.5.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.6.customLabel>right audial sensor</ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.6.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.customLabel>torsal appendage base</ABF_Body_Synstruct_Overseer.corePart.parts.6.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.customLabel>torsal arm</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.customLabel>gripper base</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.0.customLabel>first gripper</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.1.customLabel>second gripper</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.2.customLabel>third gripper</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.3.customLabel>fourth gripper</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.4.customLabel>fifth gripper</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.5.customLabel>sixth gripper</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.5.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.6.customLabel>seventh gripper</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.6.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.7.customLabel>eighth gripper</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.7.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.8.customLabel>ninth gripper</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.8.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.8.customLabel>left leg</ABF_Body_Synstruct_Overseer.corePart.parts.8.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.8.parts.0.customLabel>left foot</ABF_Body_Synstruct_Overseer.corePart.parts.8.parts.0.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.9.customLabel>right leg</ABF_Body_Synstruct_Overseer.corePart.parts.9.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.9.parts.0.customLabel>right foot</ABF_Body_Synstruct_Overseer.corePart.parts.9.parts.0.customLabel>
+
+
+</LanguageData>

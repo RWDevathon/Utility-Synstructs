@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Overseer.label>synstruct overseer</ABF_Thing_Synstruct_Overseer.label>
+  <ABF_Thing_Synstruct_Overseer.description>Overseer drones are intimidating beings, inhuman and alien. With a single limb reaching from their spindly torso affixed with needle-like appendages, a trio of visual sensors that emit uncomfortable light, and an affixing stare, overseers are the scrying and analytical extensions of their masters. Capable of carrying out research tasks and the vital task of reprogramming and mending broken machinery, overseers are critical components in the massive scale machinery of fully automated drone hives.\n\nWhile some believe them to have inscrutable sapience, they are still drones, and follow whatever programming they possess. Drones reprogramming drones is a nightmare for many, and overseer drones are often hunted for this very reason.\n\nTheir hyperspecialized design and sheer innate complexity leaves precious little room for much else.</ABF_Thing_Synstruct_Overseer.description>
+  <ABF_Thing_Synstruct_Overseer.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</ABF_Thing_Synstruct_Overseer.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ABF_Thing_Synstruct_Overseer.tools.0.label>gripper fist</ABF_Thing_Synstruct_Overseer.tools.0.label>
+  <ABF_Thing_Synstruct_Overseer.tools.1.label>head</ABF_Thing_Synstruct_Overseer.tools.1.label>
+
+
+</LanguageData>

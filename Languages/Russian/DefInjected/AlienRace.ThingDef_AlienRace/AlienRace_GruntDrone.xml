@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Grunt.label>synstruct grunt</ABF_Thing_Synstruct_Grunt.label>
+  <ABF_Thing_Synstruct_Grunt.description>Matching the simplicity of their purpose, the simplicity of the grunt drone's design is its greatest feature. Designed purely for work, they are durable, capable, and persistent. Lacking the fine motor controls of less hyper-specialized designs, though, they are incapable of most complex tasks.\n\nThe most advanced elements of its design are its batteries and generators, which allow it to maximize its workflow and minimize downtime.</ABF_Thing_Synstruct_Grunt.description>
+  <ABF_Thing_Synstruct_Grunt.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</ABF_Thing_Synstruct_Grunt.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ABF_Thing_Synstruct_Grunt.tools.0.label>right fist</ABF_Thing_Synstruct_Grunt.tools.0.label>
+  <ABF_Thing_Synstruct_Grunt.tools.1.label>left fist</ABF_Thing_Synstruct_Grunt.tools.1.label>
+  <ABF_Thing_Synstruct_Grunt.tools.2.label>head</ABF_Thing_Synstruct_Grunt.tools.2.label>
+
+
+</LanguageData>
