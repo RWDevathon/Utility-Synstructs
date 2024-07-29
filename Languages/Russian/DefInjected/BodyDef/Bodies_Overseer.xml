@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Body_Synstruct_Overseer.label>туловище надзирателя</ABF_Body_Synstruct_Overseer.label>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.2.customLabel>левый радиатор</ABF_Body_Synstruct_Overseer.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.3.customLabel>правый радиатор</ABF_Body_Synstruct_Overseer.corePart.parts.3.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.2.customLabel>Основной оптический датчик</ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.3.customLabel>Основной оптический датчик</ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.4.customLabel>Вторичный оптический датчик</ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.5.customLabel>левый звуковой датчик</ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.5.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.6.customLabel>правый звуковой датчик</ABF_Body_Synstruct_Overseer.corePart.parts.5.parts.0.parts.6.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.customLabel>основание туловищного отростка</ABF_Body_Synstruct_Overseer.corePart.parts.6.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.customLabel>туловищная рука</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.customLabel>основа захвата</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.0.customLabel>первый захват</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.1.customLabel>второй захват</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.2.customLabel>третий захват</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.3.customLabel>четвёртый захват</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.4.customLabel>пятый захват</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.5.customLabel>шестой захват</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.5.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.6.customLabel>седьмой захват</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.6.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.7.customLabel>восьмой захват</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.7.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.8.customLabel>девятый захват</ABF_Body_Synstruct_Overseer.corePart.parts.6.parts.0.parts.0.parts.8.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.8.customLabel>левая нога</ABF_Body_Synstruct_Overseer.corePart.parts.8.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.8.parts.0.customLabel>левая стопа</ABF_Body_Synstruct_Overseer.corePart.parts.8.parts.0.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.9.customLabel>правая нога</ABF_Body_Synstruct_Overseer.corePart.parts.9.customLabel>
+  <ABF_Body_Synstruct_Overseer.corePart.parts.9.parts.0.customLabel>правая стопа</ABF_Body_Synstruct_Overseer.corePart.parts.9.parts.0.customLabel>
+
+
+</LanguageData>

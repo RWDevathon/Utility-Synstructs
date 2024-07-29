@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Grunt.label>синтоид труженик</ABF_Thing_Synstruct_Grunt.label>
+  <ABF_Thing_Synstruct_Grunt.description>Главная особенность соответствует его названию и простой конструкции. Подобные дроны созданы исключительно для работы, прочные, способные и стойкие. Не обладая тонкой моторикой, свойственной менее гипер-специализированным юнитам, они, тем не менее, не способны выполнять большинство сложных задач.\n\nСамыми продвинутыми элементами его конструкции являются аккумулятор и генераторы, которые позволяют максимально оптимизировать рабочий процесс и свести простои к минимуму.</ABF_Thing_Synstruct_Grunt.description>
+  <ABF_Thing_Synstruct_Grunt.tools.0.label>правый кулак</ABF_Thing_Synstruct_Grunt.tools.0.label>
+  <ABF_Thing_Synstruct_Grunt.tools.1.label>левый кулак</ABF_Thing_Synstruct_Grunt.tools.1.label>
+  <ABF_Thing_Synstruct_Grunt.tools.2.label>голова</ABF_Thing_Synstruct_Grunt.tools.2.label>
+
+
+</LanguageData>
