@@ -182,6 +182,10 @@
                     <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+                <hediffReplacements>
+                    <BloodRot MayRequire="Ludeon.RimWorld.Royalty">ABF_Hediff_Synstruct_CoreLockout</BloodRot>
+                    <Abasia MayRequire="Ludeon.RimWorld.Royalty">ABF_Hediff_Synstruct_CoreLockout</Abasia>
+                </hediffReplacements>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
                 <playerDronePawnKindDef>ABF_PawnKind_Synstruct_Player_Envoy_Drone_Base</playerDronePawnKindDef>
