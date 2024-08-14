@@ -65,11 +65,11 @@
 			<ComfyTemperatureMax>30</ComfyTemperatureMax>
 			<WorkSpeedGlobal>0.75</WorkSpeedGlobal>
 			<MentalBreakThreshold>0.01</MentalBreakThreshold>
-            <ABF_Stat_Synstruct_CoherenceRetention>1</ABF_Stat_Synstruct_CoherenceRetention>
-            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>0.25</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
-            <ABF_Stat_Synstruct_ChargingSpeed>1</ABF_Stat_Synstruct_ChargingSpeed>
             <ABF_Stat_Artificial_ComplexityLimit>40</ABF_Stat_Artificial_ComplexityLimit>
             <ABF_Stat_Artificial_SkillLimit>6</ABF_Stat_Artificial_SkillLimit>
+            <ABF_Stat_Synstruct_ChargingSpeed>0.5</ABF_Stat_Synstruct_ChargingSpeed>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>0.5</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <MaxNutrition>1.4</MaxNutrition>
 			<Mass>64</Mass>
 		</statBases>
 		<tools>
@@ -123,6 +123,7 @@
 			<body>ABF_Body_Synstruct_Envoy</body>
 			<baseBodySize>0.75</baseBodySize>
 			<baseHealthScale>0.75</baseHealthScale>
+            <baseHungerRate>0.75</baseHungerRate>
 		</race>
         <recipes>
             <li>ABF_Recipe_Synstruct_InjectCoolant</li>
