@@ -144,10 +144,10 @@
                     <li>ABF_Directive_Synstruct_Artisan</li>
                 </inherentDirectives>
                 <inherentSkills>
-                    <li><key>Intellectual</key><value>3</value></li>
-                    <li><key>Crafting</key><value>3</value></li>
+                    <li><key>Intellectual</key><value>6</value></li>
+                    <li><key>Crafting</key><value>6</value></li>
                 </inherentSkills>
-                <droneSkillLevel>5</droneSkillLevel>
+                <droneSkillLevel>2</droneSkillLevel>
                 <blacklistedNeeds>
                     <li>DrugDesire</li>
                     <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
