@@ -104,7 +104,7 @@
 		<race>
 			<body>ABF_Body_Synstruct_Overseer</body>
 			<baseBodySize>0.75</baseBodySize>
-            <baseHungerRate>1.6</baseHungerRate>
+            <baseHungerRate>1</baseHungerRate>
 		</race>
         <recipes>
             <li>ABF_Recipe_Synstruct_InjectCoolant</li>
