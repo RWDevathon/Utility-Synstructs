@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Grunts may be blank, drone, or reprogrammable -->
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_BlankBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Grunt_Blank_Base</defName>
+		<label>grunt blank</label>
+		<race>ABF_Thing_Synstruct_Grunt</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_DroneBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Grunt_Drone_Base</defName>
+		<label>grunt drone</label>
+		<race>ABF_Thing_Synstruct_Grunt</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_ReprogrammableBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Grunt_Reprogrammable_Base</defName>
+		<label>grunt drone</label>
+		<race>ABF_Thing_Synstruct_Grunt</race>
+	</PawnKindDef>
+
+    <!-- Overseers may be blank, drone, or reprogrammable -->
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_BlankBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Overseer_Blank_Base</defName>
+		<label>overseer blank</label>
+		<race>ABF_Thing_Synstruct_Overseer</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_DroneBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Overseer_Drone_Base</defName>
+		<label>overseer drone</label>
+		<race>ABF_Thing_Synstruct_Overseer</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_ReprogrammableBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Overseer_Reprogrammable_Base</defName>
+		<label>overseer drone</label>
+		<race>ABF_Thing_Synstruct_Overseer</race>
+	</PawnKindDef>
+
+    <!-- Envoys may be blank, drone, or reprogrammable -->
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_BlankBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Envoy_Blank_Base</defName>
+		<label>envoy blank</label>
+		<race>ABF_Thing_Synstruct_Envoy</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_DroneBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Envoy_Drone_Base</defName>
+		<label>envoy drone</label>
+		<race>ABF_Thing_Synstruct_Envoy</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_ReprogrammableBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Envoy_Reprogrammable_Base</defName>
+		<label>envoy drone</label>
+		<race>ABF_Thing_Synstruct_Envoy</race>
+	</PawnKindDef>
+
+</Defs>

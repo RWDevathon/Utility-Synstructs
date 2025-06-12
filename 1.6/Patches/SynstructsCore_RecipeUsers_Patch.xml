@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- Grunts, Envoys, and Overseers use standard Synstruct recipes -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[@Name="ABF_Recipe_Synstruct_SurgeryBase"]/recipeUsers</xpath>
+        <value>
+            <li>ABF_Thing_Synstruct_Grunt</li>
+            <li>ABF_Thing_Synstruct_Overseer</li>
+            <li>ABF_Thing_Synstruct_Envoy</li>
+        </value>
+    </Operation>
+
+</Patch>
