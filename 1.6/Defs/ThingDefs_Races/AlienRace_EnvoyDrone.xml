@@ -67,9 +67,8 @@
 			<MentalBreakThreshold>0.01</MentalBreakThreshold>
             <ABF_Stat_Artificial_ComplexityLimit>40</ABF_Stat_Artificial_ComplexityLimit>
             <ABF_Stat_Artificial_SkillLimit>6</ABF_Stat_Artificial_SkillLimit>
-            <ABF_Stat_Synstruct_ChargingSpeed>0.5</ABF_Stat_Synstruct_ChargingSpeed>
-            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>0.5</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
-            <MaxNutrition>1.4</MaxNutrition>
+            <ABF_Stat_Synstruct_MaxEnergy>400</ABF_Stat_Synstruct_MaxEnergy>
+            <ABF_Stat_Synstruct_EnergyConsumption>300</ABF_Stat_Synstruct_EnergyConsumption>
 			<Mass>64</Mass>
 		</statBases>
 		<tools>
@@ -177,6 +176,7 @@
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>3</value></li>
                     <li><key>ABF_Need_Synstruct_Lubricant</key><value>1.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value>300</value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStim</li>
