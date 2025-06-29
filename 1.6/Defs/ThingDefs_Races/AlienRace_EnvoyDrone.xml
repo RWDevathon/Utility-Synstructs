@@ -174,9 +174,23 @@
                     <li>Indoors</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Need_Synstruct_Coolant</key><value>3</value></li>
-                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>1.5</value></li>
-                    <li><key>ABF_Need_Synstruct_Energy</key><value>300</value></li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Coolant</key>
+                        <value>
+                            <maximumCapacity>3</maximumCapacity>
+                            <fallRatePerDay>0.05</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Lubricant</key>
+                        <value>
+                            <maximumCapacity>6</maximumCapacity>
+                            <fallRatePerDay>0.1</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value></value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStim</li>
