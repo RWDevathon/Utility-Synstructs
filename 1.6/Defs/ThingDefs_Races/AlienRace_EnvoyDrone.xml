@@ -154,6 +154,7 @@
                     <li>Crafting</li>
                     <li>Hauling</li>
                     <li>Cleaning</li>
+                    <li MayRequire="Ludeon.RimWorld.Anomaly">DarkStudy</li>
                     <li>Research</li>
                 </forbiddenWorkTypes>
                 <inherentSkills>

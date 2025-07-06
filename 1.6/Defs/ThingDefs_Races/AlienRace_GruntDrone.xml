@@ -152,18 +152,22 @@
                     <li>ABF_WorkType_Artificial_Artificer</li>
                     <li>Warden</li>
                     <li MayRequire="Ludeon.RimWorld.Biotech">Childcare</li>
-                    <li>Cooking</li>
                     <li>Hunting</li>
                     <li>Handling</li>
                     <li>Smithing</li>
                     <li>Tailoring</li>
                     <li>Art</li>
+                    <li MayRequire="Ludeon.RimWorld.Anomaly">DarkStudy</li>
                     <li>Research</li>
                 </forbiddenWorkTypes>
                 <inherentDirectives>
                     <li>ABF_Directive_Synstruct_Grunt</li>
                 </inherentDirectives>
-                <droneSkillLevel>4</droneSkillLevel>
+                <inherentSkills>
+                    <li><key>Construction</key><value>2</value></li>
+                    <li><key>Mining</key><value>2</value></li>
+                </inherentSkills>
+                <droneSkillLevel>6</droneSkillLevel>
                 <blacklistedNeeds>
                     <li>DrugDesire</li>
                     <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
