@@ -125,8 +125,8 @@
             <baseHungerRate>0.46875</baseHungerRate>
 		</race>
         <recipes>
-            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
-            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
+            <li>ABF_Recipe_Synstruct_InjectChemfuel</li>
+            <li>ABF_Recipe_Synstruct_SupplyComponents</li>
         </recipes>
         <comps>
             <li>
@@ -176,19 +176,12 @@
                 </blacklistedNeeds>
                 <artificialNeeds>
                     <li>
-                        <key>ABF_Need_Synstruct_Coolant</key>
+                        <key>ABF_Need_Synstruct_Components</key>
                         <value>
-                            <maximumCapacity>3</maximumCapacity>
-                            <fallRatePerDay>0.05</fallRatePerDay>
+                            <maximumCapacity>2</maximumCapacity>
+                            <fallRatePerDay>0.03334</fallRatePerDay>
                             <fallRateIsPercentage>false</fallRateIsPercentage>
-                        </value>
-                    </li>
-                    <li>
-                        <key>ABF_Need_Synstruct_Lubricant</key>
-                        <value>
-                            <maximumCapacity>6</maximumCapacity>
-                            <fallRatePerDay>0.1</fallRatePerDay>
-                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                            <displayFallRateAsPerYear>true</displayFallRateAsPerYear>
                         </value>
                     </li>
                     <li><key>ABF_Need_Synstruct_Energy</key><value></value></li>
